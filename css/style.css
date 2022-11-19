@@ -1,0 +1,22 @@
+.app{
+    border: 2px solid rgba(215, 215, 215, 0.412);
+    height: 100px;
+    background-color: #24282b;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 5px;
+    padding-top: 10px;
+    
+}
+
+
+.container{
+    height: 300px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    border: 1px solid darkgoldenrod;
+}
+
