@@ -1,6 +1,6 @@
 .app{
     border: 2px solid rgba(215, 215, 215, 0.412);
-    height: 100px;
+    
     background-color: #24282b;
     border-radius: 10px;
     padding: 50px;
@@ -12,11 +12,83 @@
 
 .container{
     height: 300px;
-    width: 500px;
+    width: 800px;
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: gray;
-    border: 1px solid darkgoldenrod;
+    
+    background-color: rgb(202, 207, 207);
 }
 
+/*logo */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+
+}
+
+/*app-image*/
+.app-image{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#display-image{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url('/assents/image/chloe.jpg');
+}
+
+
+textarea{
+    width: 100%;
+    resize: vertical;
+    border: none;
+    padding: 10px;
+    overflow: hidden;
+    height: 80px;
+    outline: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.text-box{
+    background: black;
+    color: white;
+}
+
+/*app-photo-picker*/
+.app-photo-picker{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+}
+
+/*select*/
+#meme-list{
+    width: 100%;
+    font-size: large;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+/*button*/
+#btn-download{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: orange;
+}

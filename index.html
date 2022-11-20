@@ -4,24 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Gerando Memes</title>
 </head>
 <body>
     <div class="container">
 
         <div class="app">
-            <div class="logo"></div>
+
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+
+             <div class="app-image">
+
+                <textarea name="" class="text-box" placeholder="digite seu meme" aria-multiline="true"></textarea> <!--aria-multiline aceita varias linhas-->
+
+                <div id="display-image">
+                   
+                </div>
+                
+                 <textarea name="" class="text-box" placeholder="digite seu meme" aria-multiline="true"></textarea> 
+
+            </div>
+
+            <div class="app-photo-picker">
+
+                <select id="meme-list">
+                    <option value="opção"></option>
+                </select>
+                <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+
+            </div>
+
+            <div class="download">
+
+                <button id="btn-download">ver</button>
+
+            </div>
+
         </div>
         
-        <div class="app-image">
-
-        </div>
-
-        <div class="app-photo-picker"></div>
-
-        <div class="download"></div>
-
+       
 
     </div>
 </body>
