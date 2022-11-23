@@ -44,7 +44,7 @@
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-image: url('/assents/image/chloe.jpg');
+    /*background-image: url('/assents/image/chloe.jpg');*/
 }
 
 
@@ -59,6 +59,7 @@ textarea{
     font-weight: 600;
     font-family: sans-serif;
     font-size: 20px;
+    text-align: center;
 
 }
 
